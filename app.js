@@ -22,6 +22,7 @@ app.use('/api/greeting', (request, response) => {
   return response.send({content: message.replace(/%s/g, name)});
 });
 
+//dinesh's comment
 // set health check
 probe(app);
 
